@@ -4,6 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.beans.Achievements;
+import org.beans.Authorization;
+import org.beans.Education;
+import org.beans.Experience;
+import org.beans.Personal;
+import org.beans.Projects;
+import org.beans.References;
 
 public class DBConnect {
 
