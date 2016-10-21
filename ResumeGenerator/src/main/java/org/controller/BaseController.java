@@ -20,7 +20,7 @@ public class BaseController extends HttpServlet {
 	
 	public void doPostAction(String action, HttpServletRequest request,
 			HttpServletResponse response) {
-		try ;{
+		try {
 		if(action.equals("resume"))
 		{
 			HttpSession session = request.getSession();
